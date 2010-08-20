@@ -1,8 +1,8 @@
-Y blog - its simple blog system.Its initial version.
+R blog - its simple rails blog system.Its initial version.
 
 Install steps
 
-1.Copy all files under Y-blog(any other new directory)
+1.Copy all files under R-blog(any other new directory)
 
 2.Edit config/database.yml - change your DB settings
 
@@ -10,15 +10,18 @@ Install steps
 
 4.DB migration - run this command(rake db:migrate)
 
-5.Create admin user, run this query on your database
+5.User access information
 
-INSERT INTO `users` (`id`, `name`, `email`, `hashed_password`, `salt`, `created_at`, `updated_at`, `user_type`) VALUES
-(1, 'admin', 'admin@example.com', '05ab2c0f72761bb3bb11cf33678d17138a3f9153', '-6129560480.904960706626966', '2010-08-09 04:29:12', '2010-08-09 04:29:12', 1);
-
-For this query
+Admin
 
 email - admin@example.com
 password - admin
 
-6.Now admin user can able add/edit/delete categories,posts and users, normal user can able to see post and add comments.
+User
 
+email - tester@example.com
+password - tester
+
+6. Start the server
+
+7.Now admin user can able add/edit/delete categories,posts and users, normal user can able to see post and add comments.
