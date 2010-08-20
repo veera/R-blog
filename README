@@ -10,6 +10,8 @@ Install steps
 
 4.DB migration - run this command(rake db:migrate)
 
+
+
 5.User access information
 
 Admin
